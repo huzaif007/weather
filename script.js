@@ -38,8 +38,6 @@ submit.addEventListener('click', (e) => {
     getWeather(city.value)
 })
 
-getWeather("Srinagar"); 
-
 // For Other Default Cities
 // 1. Delhi
 const getWeather2 = (city) => {
@@ -160,4 +158,6 @@ submit.addEventListener('click', (e) => {
 })
 
 getWeather5("Paris");
+
+getWeather("Srinagar"); 
 
